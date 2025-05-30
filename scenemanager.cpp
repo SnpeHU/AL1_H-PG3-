@@ -210,6 +210,8 @@ int SceneManager::Run()
 
 		return 0;
 	}
+	Novice::Finalize();
+	return 0;
 
 }
 
