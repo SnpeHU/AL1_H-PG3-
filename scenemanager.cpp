@@ -1,4 +1,5 @@
 #include "scenemanager.h"
+#include "TitleScene.h"
 
 extern std::list<Enemy*> enemyList;
 
@@ -7,7 +8,7 @@ SceneManager::SceneManager()
 	currentScene = TITLE;
 	currentState = READY;
 
-	//sceneArr_[TITLE] = std::make_unique<TitleScene>();
+	sceneArr_[TITLE] = std::make_unique<TitleScene>();
 	//sceneArr_[GAME] = std::make_unique<GameScene>();
 	//sceneArr_[END] = std::make_unique<EndScene>();
 }
@@ -208,9 +209,8 @@ int SceneManager::Run()
 			break;
 		}
 
-		return 0;
+		
 	}
-	Novice::Finalize();
 	return 0;
 
 }

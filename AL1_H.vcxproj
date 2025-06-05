@@ -123,6 +123,7 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="scenemanager.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
     <ClCompile Include="weapen.cpp" />
   </ItemGroup>
   <ItemGroup>
