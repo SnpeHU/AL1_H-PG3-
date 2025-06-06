@@ -2,7 +2,7 @@
 #include <bullet.h>
 #include<player.h>
 #include<Vector2.h>
-extern std::list<Bullet*> bulletList;
+
 class Weapen
 {
 public:

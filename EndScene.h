@@ -1,10 +1,10 @@
 #pragma once
 #include "IScene.h"
 #include <Novice.h>
-class TitleScene : public IScene {
+class EndScene : public IScene {
 public:
-	TitleScene() = default;
-	~TitleScene() override = default;
+	EndScene() = default;
+	~EndScene() override = default;
 	// シーンの初期化
 	void Init() override;
 	// シーンの更新
@@ -13,6 +13,6 @@ public:
 	void Draw() override;
 private:
 	int backGroundUI = Novice::LoadTexture("./Resoures/images/UI/background.png");
-	int titleUI = Novice::LoadTexture("./Resoures/images/UI/title.png");
-	int startUI = Novice::LoadTexture("./Resoures/images/UI/startText.png");
+	int gameOverUI = Novice::LoadTexture("./Resoures/images/UI/gameover.png");
+	int endText = Novice::LoadTexture("./Resoures/images/UI/endText.png");
 };

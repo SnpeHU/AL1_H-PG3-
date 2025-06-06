@@ -1,7 +1,11 @@
 #pragma once
 #include <Novice.h>
+
 class InputManager {
 public:
+	static InputManager* GetInstance();
+
+
 	InputManager() = default;
 	~InputManager() = default;
 
@@ -24,4 +28,6 @@ private:
 	// キー入力結果を受け取る箱
 	char keys[256] = { 0 };
 	char preKeys[256] = { 0 };
+
+	static InputManager* instance; // シングルトンインスタンス
 };

@@ -1,5 +1,5 @@
 #include "weapen.h"
-
+extern std::list<Bullet*> bulletList;
 Weapen::Weapen()
 {
 	 

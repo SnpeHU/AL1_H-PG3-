@@ -116,9 +116,12 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\TextureManager.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
+    <ClCompile Include="EndScene.cpp" />
     <ClCompile Include="enemy.cpp" />
     <ClCompile Include="enemy_zombie.cpp" />
     <ClCompile Include="eraser.cpp" />
+    <ClCompile Include="GameSc.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="IScene.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
@@ -155,9 +158,11 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h" />
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
+    <ClInclude Include="EndScene.h" />
     <ClInclude Include="enemy.h" />
     <ClInclude Include="enemy_zombie.h" />
     <ClInclude Include="eraser.h" />
+    <ClInclude Include="GameSc.h" />
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="IScene.h" />
     <ClInclude Include="scenemanager.h" />

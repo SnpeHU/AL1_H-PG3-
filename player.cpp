@@ -1,12 +1,14 @@
 #include "player.h"
 #include <Novice.h>
+#include "InputManager.h"
 #define PI 3.14159265
 extern std::list<Enemy*> enemyList;
 
 extern const int windowRight;
 extern const int windowbottom;
-void Player::move(char* keys)
+void Player::move()
 {
+	InputManager* inputManager = InputManager::GetInstance();
 	static int preDirX = 0;
 	static int preDirY = 0;
 	isUp = false;
@@ -14,22 +16,22 @@ void Player::move(char* keys)
 	isLeft = false;
 	isRight = false;
 
-		if (keys[DIK_W])
+		if (inputManager->IsKeyPressed(DIK_W))
 		{
 			isUp = true;
 
 		}
-		if (keys[DIK_S])
+		if (inputManager->IsKeyPressed(DIK_S))
 		{
 			isDown = true;
 
 		}
-		if (keys[DIK_A])
+		if (inputManager->IsKeyPressed(DIK_A))
 		{
 			isLeft = true;
 
 		}
-		if (keys[DIK_D])
+		if (inputManager->IsKeyPressed(DIK_D))
 		{
 			isRight = true;
 

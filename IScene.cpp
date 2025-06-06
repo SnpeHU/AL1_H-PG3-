@@ -1,6 +1,5 @@
 #include "IScene.h"
-
-int IScene::sceneNo = 0;
+int IScene::sceneNo = SCENE::TITLE;
 int IScene::GetSceneNo()
 {
 	return sceneNo;

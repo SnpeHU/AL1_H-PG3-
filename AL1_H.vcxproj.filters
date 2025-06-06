@@ -68,8 +68,17 @@
     <ClCompile Include="IScene.cpp">
       <Filter>.cpp</Filter>
     </ClCompile>
+    <ClCompile Include="GameSc.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
     <ClCompile Include="TitleScene.cpp">
-      <Filter>KamataEngine</Filter>
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>.cpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -162,7 +171,6 @@
     <ClInclude Include="weapen.h">
       <Filter>.h</Filter>
     </ClInclude>
-    <ClInclude Include="eraser.h" />
     <ClInclude Include="IScene.h">
       <Filter>.h</Filter>
     </ClInclude>
@@ -170,6 +178,15 @@
       <Filter>.h</Filter>
     </ClInclude>
     <ClInclude Include="InputManager.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSc.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="eraser.h">
       <Filter>.h</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,5 @@
 #pragma once
-enum class SCENE {
+enum SCENE {
 	TITLE,
 	GAME,
 	END

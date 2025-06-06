@@ -15,7 +15,7 @@ public:
 	~Player() = default;
 
 
-	void move(char* keys);
+	void move();
 	void collide();
 
 	void rotate(int _mouseX, int _mouseY);
